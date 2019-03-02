@@ -6,9 +6,11 @@
   "scripts": {
     "test": "jest",
     "test::mutation": "stryker run",
+    "test::ci": "jest && stryker run",
     "semantic-release": "semantic-release",
     "build": "babel src -d lib",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "ci": "lint && test::ci"
   },
   "author": "Mungo Dewar",
   "license": "ISC",
