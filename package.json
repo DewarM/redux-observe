@@ -1,6 +1,6 @@
 {
   "name": "redux-observe",
-  "version": "0.0.0-development",
+  "version": "1.0.0-rc.1",
   "description": "Redux helper to observe changes in state",
   "main": "./lib/index.js",
   "scripts": {
@@ -17,6 +17,7 @@
   ],
   "author": "Mungo Dewar",
   "license": "ISC",
+  "keywords": ["redux", "observe", "utility"],
   "repository": {
     "type": "git",
     "url": "https://github.com/DewarM/redux-observe.git"
