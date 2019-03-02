@@ -10,7 +10,7 @@
     "semantic-release": "semantic-release",
     "build": "babel src -d lib",
     "lint": "eslint src",
-    "ci": "lint && test::ci"
+    "ci": "npm run lint && npm run test::ci"
   },
   "author": "Mungo Dewar",
   "license": "ISC",
