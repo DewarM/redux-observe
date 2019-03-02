@@ -1,6 +1,6 @@
 # redux-observe
 
-![alt text](https://travis-ci.org/DewarM/redux-observe.svg?branch=master)
+![alt text](https://travis-ci.org/DewarM/redux-observe.svg?branch=v1.0.0)
 
 ## redux-observe is a small redux utility to help respond to particular changes in redux state.
 
