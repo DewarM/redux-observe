@@ -5,4 +5,7 @@ script:
   - npm run ci
 
 deploy:
-  - npm run semantic-release
+  provider: script
+    skip_cleanup: true
+    script:
+      - npx semantic-release
