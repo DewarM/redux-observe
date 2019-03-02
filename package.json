@@ -2,16 +2,19 @@
   "name": "redux-observe",
   "version": "0.0.0-development",
   "description": "Redux helper to observe changes in state",
-  "main": "./src/index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "jest",
     "test::mutation": "stryker run",
     "test::ci": "jest && stryker run",
     "semantic-release": "semantic-release",
-    "build": "babel src -d lib",
-    "lint": "eslint src",
-    "ci": "npm run lint && npm run test::ci"
+    "build": "babel src -d lib --ignore '**/*.test.js'",
+    "lint": "eslint src"
   },
+  "files": [
+    "lib",
+    "README.md"
+  ],
   "author": "Mungo Dewar",
   "license": "ISC",
   "repository": {
