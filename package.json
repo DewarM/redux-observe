@@ -30,7 +30,7 @@
     "@stryker-mutator/javascript-mutator": "^2.0.0",
     "@stryker-mutator/jest-runner": "^1.0.3",
     "eslint": "^5.15.0",
-    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.16.0",
     "jest": "^24.1.0",
     "redux": "^4.0.1",
