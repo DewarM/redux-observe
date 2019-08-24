@@ -5,7 +5,7 @@ describe("observe", () => {
   it("should not call onChange of there is no state to update with", () => {
     const reducer = (state, action) => ({ ...state, [action.id]: action });
     const store = createStore(reducer);
-    const aSelector = state => state.a;
+    const aSelector = (state) => state.a;
     const onChange = jest.fn();
     observe(store, aSelector, onChange);
     expect(onChange).toBeCalledTimes(0);
@@ -18,7 +18,7 @@ describe("observe", () => {
       [action.id]: action
     });
     const store = createStore(reducer);
-    const aSelector = state => state.a;
+    const aSelector = (state) => state.a;
     const onChange = () => {
       onChangeCalledTimes += 1;
     };
@@ -33,7 +33,7 @@ describe("observe", () => {
       [action.id]: action
     });
     const store = createStore(reducer);
-    const aSelector = state => state.a;
+    const aSelector = (state) => state.a;
     const onChange = () => {
       onChangeCalledTimes += 1;
     };
