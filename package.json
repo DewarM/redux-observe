@@ -17,7 +17,11 @@
   ],
   "author": "Mungo Dewar",
   "license": "ISC",
-  "keywords": ["redux", "observe", "utility"],
+  "keywords": [
+    "redux",
+    "observe",
+    "utility"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/DewarM/redux-observe.git"
@@ -30,8 +34,8 @@
     "@stryker-mutator/javascript-mutator": "^2.0.0",
     "@stryker-mutator/jest-runner": "^1.0.3",
     "eslint": "^6.2.2",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.16.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-plugin-import": "^2.18.2",
     "jest": "^24.1.0",
     "redux": "^4.0.1",
     "semantic-release": "^15.13.3"
