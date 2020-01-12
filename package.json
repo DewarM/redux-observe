@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.8.0",
-    "@babel/core": "^7.5.5",
+    "@babel/core": "^7.8.0",
     "@babel/preset-env": "^7.5.5",
     "@stryker-mutator/core": "^2.0.2",
     "@stryker-mutator/javascript-mutator": "^2.0.0",
